@@ -1,4 +1,6 @@
 import styles from "./bodyItem.module.css";
+import photo2 from "../images/img1.png";
+import photo3 from "../images/img2.png";
 const Bodyitem = () => {
   return (
     <div className={styles.container}>
@@ -19,7 +21,7 @@ const Bodyitem = () => {
       </div>
       <div className={styles.body1}>
         <h2>Integrated Product Ecosystem</h2>
-        <img className={styles.img1} src="./images/img1.png" alt="image 1" />
+        <img className={styles.img1} src={photo2} alt="image 1" />
         <p>
           Powerhub provides a single interface for managing many combinations of
           energy assets including solar, storage and select non-Tesla assets
@@ -30,7 +32,7 @@ const Bodyitem = () => {
       </div>
       <div className={styles.body1}>
         <h2>Fleet Management</h2>
-        <img className={styles.img1} src="./images/img2.png" alt="image 1" />
+        <img className={styles.img1} src={photo3} alt="image 1" />
         <p>
           The Powerhub software platform was built with the flexibility required
           to meet a wide range of customer needs and project configurations.

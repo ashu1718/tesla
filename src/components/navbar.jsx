@@ -5,7 +5,7 @@ import { PiUserCircleThin } from "react-icons/pi";
 import { CgMenu } from "react-icons/cg";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
-
+import photo1 from "../images/tesla_icon2.png";
 const Navbar = () => {
   const [toggleSide, setSidebar] = useState(false);
   const OpenSideBar = (e) => {
@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className={styles.nav_container}>
         <div className={styles.nav_image}>
           <a href="https://www.tesla.com/">
-            <img src="/images/tesla_icon2.png" alt="icon here" />
+            <img src={photo1} alt="icon here" />
           </a>
         </div>
         <div className={`${styles.sidebar} ${toggleSide ? styles.active : ""}`}>
